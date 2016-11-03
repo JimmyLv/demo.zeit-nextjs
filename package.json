@@ -16,6 +16,6 @@
   "author": "JimmyLv",
   "license": "ISC",
   "dependencies": {
-    "next": "^1.0.2"
+    "next": "latest"
   }
 }
