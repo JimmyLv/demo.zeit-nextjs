@@ -1,0 +1,21 @@
+{
+  "name": "zeit-next",
+  "version": "0.0.1",
+  "description": "Just have try to implement the same Haiku-demo pages by using next.js",
+  "main": "index.js",
+  "scripts": {
+    "serve": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "next",
+    "react",
+    "dx"
+  ],
+  "author": "JimmyLv",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^1.0.2"
+  }
+}
