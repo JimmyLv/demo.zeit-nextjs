@@ -1,3 +1,4 @@
+import Home from './Home'
 import Navigation from './Navigation'
 
-export { Navigation }
+export { Home, Navigation }
