@@ -1,6 +1,6 @@
 // @flow
 
-export type Guy = {
+export type GuyType = {
   name: string;
   age: number;
 }

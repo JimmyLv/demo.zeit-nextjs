@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { App } from '../containers'
-import { Home } from '../components'
+import { AppContainer, Home } from '../components'
 
 export default () => (
-  <App>
+  <AppContainer>
     <Home />
-  </App>
+  </AppContainer>
 )

@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { App } from '../containers'
+import { AppContainer } from '../components'
 
 export default () => (
-  <App>
+  <AppContainer>
     <h1>Hello About!</h1>
-  </App>
+  </AppContainer>
 )

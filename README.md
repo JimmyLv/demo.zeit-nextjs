@@ -13,7 +13,7 @@ npm run serve
 now
 ```
 
-Ready! https://zeit-next-eelbebrlrm.now.sh
+https://zeit-next-eelbebrlrm.now.sh
 
 ## Thanks
 

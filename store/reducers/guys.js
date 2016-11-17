@@ -1,8 +1,8 @@
 // @flow
 
-import { SAY_HELLO_DONE, SAY_HELLO_ERROR } from '../constants/actionTypes'
-import type { Guy } from '../constants/state.flow'
+import type { GuyType } from '../constants/state.flow'
 import type { HelloAction } from '../constants/action.flow'
+import { actionTypes } from '../constants/action.flow'
 
 const NAME = 'guys'
 
@@ -13,14 +13,14 @@ const initialState = [
   }
 ]
 
-function reducer(state: Array<Guy> = initialState,
-                  action: HelloAction): Array<Guy> {
+function reducer(state: Array<GuyType> = initialState,
+                  action: HelloAction): Array<GuyType> {
   const { type, payload } = action
   
   switch (type) {
-    case SAY_HELLO_DONE:
+    case actionTypes.SAY_HELLO_DONE:
       return [...payload]
-    case SAY_HELLO_ERROR:
+    case actionTypes.SAY_HELLO_ERROR:
       console.warn('Failed to fetch guys list!', payload)
       return state
     default:
