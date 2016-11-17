@@ -10,10 +10,11 @@ npm run serve
 ## Deploy
 
 ```bash
+cd .next/
 now
 ```
 
-https://zeit-next-eelbebrlrm.now.sh
+https://next-ysfoxhjfpt.now.sh
 
 ## Thanks
 
