@@ -10,7 +10,6 @@ npm run serve
 ## Deploy
 
 ```bash
-cd .next/
 now
 ```
 
